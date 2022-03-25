@@ -1,0 +1,31 @@
+
+.frame .info button,.frame .info a{
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.frame .info label{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #484848;
+}
+
+.frame_address,.frame_university,.frame_section{
+    display: none;
+}
+
+@media(min-width:991px){
+    .frame .container{
+        width: 60%;
+    }
+}
+
+@media(max-width:480px){
+    .frame .info button{
+        margin-top: 1.3rem;
+        width: 65%;
+    }
+}
+
