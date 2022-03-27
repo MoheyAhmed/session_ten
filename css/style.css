@@ -10,12 +10,12 @@ body{
 .frame .container{
     width: 40% !important;
     /* opacity: 0.8; */
-    border-radius: 60px !important;
     /* background-image: linear-gradient(to right, rgb(131, 129, 146) , rgb(137, 109, 148)); */
     background-image: url("../images/back3.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 60px !important;
 }
 
 .frame .info button,.frame .info a{
